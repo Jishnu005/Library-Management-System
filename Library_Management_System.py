@@ -148,7 +148,7 @@ def menu():
         # Borrow Book
         borrow_name = input("Enter your name: ")
         book_id = int(input("Enter Book ID to borrow: "))
-        borrow_book(borrow_name, book_id)
+        borrow_book(node, borrow_name, book_id)
 
     elif opt == 4:
         # Return Book
