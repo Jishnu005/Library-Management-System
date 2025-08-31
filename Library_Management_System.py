@@ -1,4 +1,3 @@
-import pandas as pd
 from collections import defaultdict, deque
 
 # Book Details
@@ -185,3 +184,4 @@ while True:
     i = int(input("Want to Exit\nPress '1' for YES\nPress '2' for NO:"))
     if i != 2:
         break
+
